@@ -4,6 +4,7 @@ import { Button, TextField } from "@mui/material";
 import { useFormik } from "formik";
 import { signUpSchema } from "./schema";
 import Navbar from "./topbar/Navbar";
+import { hover } from "@testing-library/user-event/dist/hover";
 
 export default function Form() {
   const formik = useFormik({
@@ -95,6 +96,10 @@ export default function Form() {
             </button>
           </form>
         </div>
+        <input
+          placeholder="hello just checking"
+          className=""
+         />
       </div>
     </>
   );

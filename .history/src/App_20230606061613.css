@@ -64,4 +64,10 @@ body{
  }
 
 
- 
+.inputbox{
+  background: transparent;
+  border: none;
+}
+.inputbox:focus{
+  outline: none;
+}

@@ -59,12 +59,12 @@
 
 .inputField {
     width: 75%;
-    border: none;
+    border: transparent;
     background: transparent;
     display: flex;
     margin-left: 5vh;
 }
 
 input:focus {
-outline: none;
+    border-color: transparent;
 }

@@ -66,5 +66,6 @@
 }
 
 input:focus {
-outline: none;
+    border: transparent;
+    border-color: transparent;
 }

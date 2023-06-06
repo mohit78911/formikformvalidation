@@ -95,6 +95,10 @@ export default function Form() {
             </button>
           </form>
         </div>
+        <input
+          placeholder="hello just checking"
+          className="inputbox"
+         />
       </div>
     </>
   );
