@@ -34,11 +34,15 @@
 .logoName {
     font-size: 20px;
     background: linear-gradient(to left,
-            violet,
-            orange,
-            red);
-    -webkit-background-clip: text;
-    color: transparent;
+    violet,
+    indigo,
+    blue,
+    green,
+    yellow,
+    orange,
+    red);
+-webkit-background-clip: text;
+color: transparent;
 }
 
 .logosearch {
