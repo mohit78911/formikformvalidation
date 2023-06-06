@@ -1,0 +1,64 @@
+* {
+    align-items: center;
+}
+
+
+.mainNavbar {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    display: flex;
+    padding: 8px;
+    color: white;
+    position: fixed;
+    top: 0px;
+
+}
+
+.rightBar {
+    width: 100%;
+    margin-left: 5px;
+    text-align: left;
+    flex: 3;
+}
+
+.centerBar {
+    width: 100%;
+    flex: 5;
+}
+
+.leftBar {
+    width: 100%;
+    flex: 4;
+}
+
+.logoName {
+    font-size: 20px;
+}
+
+.logosearch {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 20px;
+    margin-top: 2px;
+    border-radius: 50%;
+}
+
+.searchBarSet {
+    padding: 5px;
+    width: 100%;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.inputField {
+    width: 75%;
+    border: none;
+    background: transparent;
+    display: flex;
+    margin-left: 5vh;
+}
+
+input:focus {
+    border: none;
+}
