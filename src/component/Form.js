@@ -22,6 +22,8 @@ export default function Form() {
   return (
     <>
       <Navbar />
+      <div className="mainColum">
+      <div className="oneColum">
       <div className="container mainClass">
         <br />
         <br />
@@ -93,9 +95,17 @@ export default function Form() {
             <button className="submitbtn btn btn-dark" type="submit">
               SUBMIT
             </button>
+            <p><span style={{opacity:"0.4"}}>Result will be show in Console.log </span>😊</p>
           </form>
         </div>
       </div>
+      </div>
+      <div className="secondColum">
+      hello second colum
+      </div>
+      </div>
+
+      
     </>
   );
 }

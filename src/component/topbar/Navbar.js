@@ -19,7 +19,11 @@ export default function navbar() {
                         <input className='inputField' placeholder='Search Field' />
                     </div>
                 </div>
-                <div className='leftBar'>Emojis</div>
+                <div className='leftBar'>
+                    <div className='textEmoji'>
+                    Emojis
+                        </div>
+                        </div>
             </div>
         </div>
     )
